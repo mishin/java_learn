@@ -10,14 +10,14 @@ package helloworldapp;
  * @author ira
  */
 public interface WatchInterface {
-        void setBrand(String newValue);
-    
-    void changeTime(int newValue) ;
+
+    void setBrand(String newValue);
+
+    void changeTime(int newValue);
 
     void incTime(int increment);
 
-    void decTime(int decrement) ;
+    void decTime(int decrement);
 
-    void printStates() ;
+    void printStates();
 }
- 

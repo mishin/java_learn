@@ -10,6 +10,7 @@ package helloworldapp;
  * @author ira
  */
 class LampDemo {
+
     public static void main(String[] args) {
 
         // Create two different 

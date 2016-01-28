@@ -10,6 +10,7 @@ package helloworldapp;
  * @author ira
  */
 class BicycleDemo {
+
     public static void main(String[] args) {
 
         // Create two different 
@@ -33,4 +34,3 @@ class BicycleDemo {
         bike2.printStates();
     }
 }
-

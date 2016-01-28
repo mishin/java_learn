@@ -6,8 +6,9 @@
 package helloworldapp;
 
 /**
- * The HelloWorldApp class implements an application that
- * simply prints "Hello World!" to standard output
+ * The HelloWorldApp class implements an application that simply prints "Hello
+ * World!" to standard output
+ *
  * @author mishinna
  */
 public class HelloWorldApp {
@@ -19,5 +20,5 @@ public class HelloWorldApp {
         System.out.println("Hola Mundo!");//Display the string
         // TODO code application logic here
     }
-    
+
 }

@@ -9,16 +9,15 @@ package helloworldapp;
  *
  * @author ira
  */
-
 public class Lamp {
 
-    String MySwitch  = "off";
+    String MySwitch = "off";
 
     void changeMySwitch(String newValue) {
-         MySwitch = newValue;
+        MySwitch = newValue;
     }
 
     void printStates() {
-         System.out.println("MySwitch: " +  MySwitch );
+        System.out.println("MySwitch: " + MySwitch);
     }
 }

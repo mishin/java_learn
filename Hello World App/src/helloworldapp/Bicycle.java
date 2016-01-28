@@ -10,30 +10,42 @@ package helloworldapp;
  * @author ira
  */
 public class Bicycle {
-
-    int cadence = 0;
-    int speed = 0;
-    int gear = 1;
-
-    void changeCadence(int newValue) {
-         cadence = newValue;
+        
+    private int cadence;
+    private int gear;
+    private int speed;
+        
+    public Bicycle(int startCadence, int startSpeed, int startGear) {
+        gear = startGear;
+        cadence = startCadence;
+        speed = startSpeed;
     }
-
-    void changeGear(int newValue) {
-         gear = newValue;
+        
+    public int getCadence() {
+        return cadence;
     }
-
-    void speedUp(int increment) {
-         speed = speed + increment;   
+        
+    public void setCadence(int newValue) {
+        cadence = newValue;
     }
-
-    void applyBrakes(int decrement) {
-         speed = speed - decrement;
+        
+    public int getGear() {
+        return gear;
     }
-
-    void printStates() {
-         System.out.println("cadence:" +
-             cadence + " speed:" + 
-             speed + " gear:" + gear);
+        
+    public void setGear(int newValue) {
+        gear = newValue;
+    }
+        
+    public int getSpeed() {
+        return speed;
+    }
+        
+    public void applyBrake(int decrement) {
+        speed -= decrement;
+    }
+        
+    public void speedUp(int increment) {
+        speed += increment;
     }
 }

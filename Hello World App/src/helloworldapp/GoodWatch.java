@@ -9,22 +9,23 @@ package helloworldapp;
  *
  * @author ira
  */
-class GoodWatch implements WatchInterface{
-   String brand = "Orient";
+class GoodWatch implements WatchInterface {
+
+    String brand = "Orient";
     int time = 0;
 
     public void setBrand(String newValue) {
-         brand = newValue;
+        brand = newValue;
     }
-    
+
     public void changeTime(int newValue) {
-         time = newValue;
+        time = newValue;
     }
 
     public void printStates() {
-         System.out.println("brand:" +
-             brand + " time:" + 
-             time );
+        System.out.println("brand:"
+                + brand + " time:"
+                + time);
     }
 
     @Override

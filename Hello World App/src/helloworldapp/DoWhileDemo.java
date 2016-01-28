@@ -9,14 +9,12 @@ package helloworldapp;
  *
  * @author ira
  */
-public interface BicycleInterf {
-    //  wheel revolutions per minute
-
-    void changeCadence(int newValue);
-
-    void changeGear(int newValue);
-
-    void speedUp(int increment);
-
-    void applyBrakes(int decrement);
+class DoWhileDemo {
+    public static void main(String[] args){
+        int count = 1;
+        do {
+            System.out.println("Count is: " + count);
+            count++;
+        } while (count < 11);
+    }
 }

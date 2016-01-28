@@ -9,14 +9,12 @@ package helloworldapp;
  *
  * @author ira
  */
-public interface BicycleInterf {
-    //  wheel revolutions per minute
 
-    void changeCadence(int newValue);
-
-    void changeGear(int newValue);
-
-    void speedUp(int increment);
-
-    void applyBrakes(int decrement);
+class BitDemo {
+    public static void main(String[] args) {
+        int bitmask = 0x000F;
+        int val = 0x2222;
+        // prints "2"
+        System.out.println(val & bitmask);
+    }
 }
